@@ -1,0 +1,14 @@
+body {
+    font-family: Garamond, serif;
+    width: 40%;
+    margin: 0 auto;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+header, .intro-container, .steps-container {
+background-color: #fdffcd;
+}
