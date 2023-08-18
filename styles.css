@@ -1,14 +1,53 @@
 body {
     font-family: Garamond, serif;
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
 }
 
-img {
+.recipe-img {
     height: auto;
-    width: 300px;
+    width: 40%;
+
 }
 
 header, .intro-container, .steps-container {
 background-color: #fdffcd;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 40px;
+    color: #00383e;
+}
+
+a {
+    text-decoration: none;
+}
+.recipe-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.menu-item {
+list-style: none;
+font-size: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.menu-item a:visited {
+color: #a4374e;
+}
+
+.menu-img {
+    height: auto;
+    width:80%;
+
+}
+
+em {
+    color: grey;
 }
